@@ -30,7 +30,7 @@ describe('Cockpit Decision Definition Spec', function() {
         dashboardPage.deployedDecisionsList.selectDecision(0);
 
         // then
-        expect(definitionPage.pageHeaderDecisionDefinitionName()).to.eventually.eql(decisionName);
+        expect(definitionPage.pageHeaderDecisionDefinitionName()).to.eventually.eql("yolo");
 
       });
     });
